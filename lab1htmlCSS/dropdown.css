@@ -1,0 +1,62 @@
+header{
+    background-color: red;
+    font-weight: 700;
+    font-size:40px;
+    padding:30px;
+    height:auto;
+    color: black;
+    width: 95.8%;
+    text-align: right;
+}
+
+.container{
+    background-color:grey;
+    padding:10px;
+    width: 99%;
+    height:30px
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+ul{
+
+    list-style: none;
+    margin:0;
+    padding:0;
+
+}
+ul li{
+    float:left;
+    width:100px;
+    height:40px;
+    text-align: center;
+    background-color:grey;
+    line-height: 40px;
+}
+.dropdown li{
+    display:none;
+    background-color: chartreuse;
+}
+.dropdown li:hover{
+    background-color: pink;
+}
+ul li:hover .dropdown li{
+    display:block;
+}
+ul li:hover{
+    background-color: black;
+}
+
+.dropdown1 li{
+    display:none;
+    background-color: chartreuse;
+}
+.dropdown1 li:hover{
+    background-color:goldenrod;
+}
+ul li:hover .dropdown1 li{
+    display:block;
+}
